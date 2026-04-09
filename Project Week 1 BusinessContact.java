@@ -16,7 +16,7 @@ class BusinessContact extends Contact {
     // Uses 'super' to call the parent (Contact) constructor
     BusinessContact(String name, String email, String phoneNumber, String company) {
 
-        // Calls the constructor from the Contact class (INHERITANCE)
+        // Calls the constructor from the Contact class (Inheritance)
         super(name, email, phoneNumber);
 
         // Sets the company name for this business contact
